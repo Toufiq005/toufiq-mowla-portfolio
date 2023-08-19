@@ -42,7 +42,7 @@ export default function (props) {
         })}
       </ul>
       <div className="flex items-center justify-center max-sm:hidden">
-        <a className={"resume-link text-2xl mr-10" + " " + props.brand.border} href="#">My resume</a>
+        <a className={"resume-link text-2xl mr-10" + " " + props.brand.border} href="/cv-of-toufiq-mowla.pdf" download={true}>My resume</a>
       </div>
     </div>
   );

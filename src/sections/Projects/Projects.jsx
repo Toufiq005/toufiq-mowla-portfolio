@@ -23,7 +23,7 @@ export default function Projects({ brand }) {
       details: {
         short:
           "An optimized themeforest template.",
-        long: "Quax Raect is an optimized themeforest template. It container 3 homepage and 10+ inner pages. Quax react is built wiht leatest version of next js and tailwind css. It also have some cool looking animation with which is made possible by framer motion.",
+        long: "Quax Raect is an optimized themeforest template. It container 3 homepage and 10+ inner pages. Quax react is built with latest version of next js and tailwind css. It also have some cool looking animation with which is made possible by framer motion.",
       },
       links: {
         git: "https://themeforest.net/user/loyalcoders/portfolio",
