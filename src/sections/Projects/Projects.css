@@ -1,0 +1,35 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.projects .img-container {
+  width: 95%;
+  min-height: 260px;
+  background: var(--background-light);
+  overflow: hidden;
+}
+
+.projects .img-container img {
+  width: 90%;
+  height: auto;
+}
+.project-modal {
+  backdrop-filter: blur(10px);
+}
+.project-modal-content {
+  width: 700px;
+}
+.project-modal-content img {
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .projects .img-container {
+    min-height: 160px;
+  }
+}

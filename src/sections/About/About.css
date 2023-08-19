@@ -1,0 +1,19 @@
+.about {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 40px;
+}
+.about p {
+  font-weight: 300;
+}
+
+.about .right-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 1200px) {
+  .about {
+    grid-template-columns: 100%;
+  }
+}

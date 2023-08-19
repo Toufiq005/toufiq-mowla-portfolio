@@ -1,0 +1,27 @@
+.side-nav {
+  width: 80px;
+  background: var(--background-dark);
+}
+.logo {
+  background: var(--background);
+}
+.logo h1 {
+  letter-spacing: -10px;
+}
+.nav-links a {
+  width: 80px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-links:hover {
+  background-color: var(--background);
+  border-right-width: 1px;
+  border-style: solid;
+}
+.nav-links .active {
+  background-color: var(--background);
+  border-right-width: 1px;
+  border-style: solid;
+}

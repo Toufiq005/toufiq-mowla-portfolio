@@ -1,0 +1,122 @@
+:root {
+  --background: #111;
+  --bg-opaque: hsla(0, 0%, 7%, 0.25);
+  --background-light: #232323;
+  --background-dark: #080808;
+  --text: #ebecf3;
+  --brand-one: #0aff9d;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+/* ============utils============= */
+
+.wrapper {
+  max-width: 960px;
+  width: 100%;
+}
+.text-brand-one {
+  color: var(--brand-one);
+  transition: color 300ms;
+}
+.text-brand-two {
+  color: #ee82ee;
+  transition: color 300ms;
+}
+.text-brand-three {
+  color: #00ffff;
+  transition: color 300ms;
+}
+.text-brand-four {
+  color: #ffff00;
+  transition: color 300ms;
+}
+.border-brand-one {
+  border-color: var(--brand-one);
+}
+.border-brand-two {
+  border-color: #ee82ee;
+}
+.border-brand-three {
+  border-color: #00ffff;
+}
+.border-brand-four {
+  border-color: #ffff00;
+}
+.bg-brand-one {
+  background-color: var(--brand-one);
+}
+.bg-brand-two {
+  background-color: #ee82ee;
+}
+.bg-brand-three {
+  background-color: #00ffff;
+}
+.bg-brand-four {
+  background-color: #ffff00;
+}
+.text-dark {
+  color: var(--background-dark);
+}
+.bg-dark {
+  background-color: var(--background-dark);
+}
+.bg-light {
+  background-color: var(--background-light);
+}
+.bg-opaque {
+  background-color: var(--bg-opaque);
+}
+.hover-brand-one:hover {
+  color: var(--brand-one);
+}
+.hover-brand-two:hover {
+  color: #ee82ee;
+}
+.hover-brand-three:hover {
+  color: #00ffff;
+}
+.hover-brand-four:hover {
+  color: #ffff00;
+}
+.header-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--text);
+  position: relative;
+  top: 20px;
+  z-index: -1;
+  opacity: 0.5;
+}
+.line-two {
+  width: 250px;
+  height: 1px;
+  background-color: var(--text);
+  opacity: 0.5;
+}
+.line-three {
+  width: 100%;
+  height: 1px;
+  background-color: var(--text);
+  opacity: 0.2;
+}
+header,
+section {
+  min-height: 700px;
+}
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .header-line {
+    display: none;
+  }
+}
