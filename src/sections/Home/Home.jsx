@@ -43,7 +43,7 @@ export default function Home({ brand }) {
         </h2>
         <p className="text-xl font-extralight w-2/3 mt-7">
           <TextReveal>
-            I bring 8 months of experience as a front-end developer with
+            I bring 1 years of experience as a front-end developer with
             expertise in Next.js, React.js, and Tailwind CSS. I am committed to
             ongoing learning and embracing fresh challenges to elevate my skills
             and user experiences.
