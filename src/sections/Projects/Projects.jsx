@@ -5,7 +5,7 @@ import {
   faArrowRightFromBracket,
   faMultiply,
 } from "@fortawesome/free-solid-svg-icons";
-import { AnimatePresence } from "framer-motion";
+// import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -22,7 +22,7 @@ export default function Projects({ brand }) {
       skills: "Next js - React js - Tailwind - Framer motion",
       details: {
         short:
-          "An optimized themeforest template.",
+          "An optimized themeforest template. ",
         long: "Quax Raect is an optimized themeforest template. It container 3 homepage and 10+ inner pages. Quax react is built with latest version of next js and tailwind css. It also have some cool looking animation with which is made possible by framer motion.",
       },
       links: {
@@ -32,12 +32,57 @@ export default function Projects({ brand }) {
     },
     {
       id: 2,
+      img: "/assets/kinder-world.png",
+      name: "Kinder World",
+      skills: "Next js - React js - Tailwind - Framer motion",
+      details: {
+        short:
+          "An optimized themeforest template. ",
+        long: "Kinder World is an optimized themeforest template. It container 3 homepage and 10+ inner pages. Kinder World react is built with latest version of next js and tailwind css. It also have some cool looking animation with which is made possible by framer motion.",
+      },
+      links: {
+        git: "https://themeforest.net/user/loyalcoders/portfolio",
+        live: "https://kinder-world-react.vercel.app/",
+      },
+    },
+    {
+      id: 2,
+      img: "/assets/adminify.png",
+      name: "Adminify React Dashboard",
+      skills: "Next js - React js - Tailwind - Framer motion",
+      details: {
+        short:
+          "An optimized themeforest template. ",
+        long: "Adminify React is an optimized themeforest template. It container 3 homepage and 90+ inner pages. Adminify React is built with latest version of next js and tailwind css. It also have some cool looking animation with which is made possible by framer motion.",
+      },
+      links: {
+        git: "https://themeforest.net/user/loyalcoders/portfolio",
+        live: "https://adminify-react.vercel.app/",
+      },
+    },
+    {
+      id: 2,
+      img: "/assets/moviestar.png",
+      name: "Moviestar React",
+      skills: "Next js - React js - Tailwind - Framer motion",
+      details: {
+        short:
+          "An optimized themeforest template. ",
+        long: "Moviestar React is an optimized themeforest template. It container 3 homepage and 90+ inner pages. Moviestar React is built with latest version of next js and tailwind css. It also have some cool looking animation with which is made possible by framer motion.",
+      },
+      links: {
+        git: "https://themeforest.net/user/loyalcoders/portfolio",
+        live: "https://moviestar-react.vercel.app/home-2",
+      },
+    },
+    {
+      id: 2,
       img: "https://github.com/Toufiq005/space-tourism-website-react/raw/main/screenshot.png",
       name: "Space",
       skills: "Node - React js - React routes - Tailwind",
       details: {
         short:
-          "A multipage space tourism website.",
+          "A multipage space tourism website. ",
         long: "A multipage space tourism website. ",
       },
       links: {
@@ -45,21 +90,21 @@ export default function Projects({ brand }) {
         live: "https://nasa-space-website-react.netlify.app/",
       },
     },
-    {
-      id: 3,
-      img: "https://github.com/Toufiq005/easy-bank-landing-page-fem/raw/master/screenshot.jpg",
-      name: "Easy Bank",
-      skills: "React - Tailwind - Css flex/grid - Git",
-      details: {
-        short:
-          "A Lading page building challenge on Frontend Mentor.",
-        long: "This is a solution to the Easybank landing page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
-      },
-      links: {
-        git: "https://github.com/Toufiq005/easy-bank-landing-page-fem",
-        live: "https://celadon-croissant-8f63f7.netlify.app/",
-      },
-    },
+    // {
+    //   id: 3,
+    //   img: "https://github.com/Toufiq005/easy-bank-landing-page-fem/raw/master/screenshot.jpg",
+    //   name: "Easy Bank",
+    //   skills: "React - Tailwind - Css flex/grid - Git",
+    //   details: {
+    //     short:
+    //       "A Lading page building challenge on Frontend Mentor.",
+    //     long: "This is a solution to the Easybank landing page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+    //   },
+    //   links: {
+    //     git: "https://github.com/Toufiq005/easy-bank-landing-page-fem",
+    //     live: "https://celadon-croissant-8f63f7.netlify.app/",
+    //   },
+    // },
     {
       id: 4,
       name: "Go Remote",
@@ -67,7 +112,7 @@ export default function Projects({ brand }) {
       skills: "React - Tailwind - Git",
       details: {
         short:
-          "Make remote work",
+          "Make remote work. ",
         long: "Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.",
       },
       links: {
