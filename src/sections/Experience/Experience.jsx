@@ -4,12 +4,15 @@ export default function Experience({ brand }) {
   const data = [
     {
       id: 1,
-      company: "Loyalcoder",
+      // company: "Loyalcoder",
+      company: "Datatrix Soft Ltd.",
       date: "2023 - Present",
       position: "Next js Developer",
-      location: "Pabna, Bangladesh",
+      // location: "Pabna, Bangladesh",
+      location: "Dhaka, Bangladesh",
       details:
-        "I make next js website templates for their themeforest portfolio. ",
+        "6 months+ Field experience.",
+        // I make next js website templates for their themeforest portfolio.
       skills: [
         {
           id: 1,
